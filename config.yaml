@@ -1,0 +1,74 @@
+symbol: "XAUUSD.vx"
+mode:
+  trading_mode: "demo_trade" # signal_only / demo_trade
+  allow_demo_order: true
+  allow_live_order: false
+timeframes:
+  entry: "M15"
+  confirm_1: "H1"
+  confirm_2: "H4"
+risk:
+  lot: 0.01
+  sl_pips: 300
+  tp_pips: 600
+  max_layer: 1
+  max_daily_loss_percent: 3
+  move_to_be_after_pips: 250
+ai:
+  min_score_entry: 90
+strategy:
+  version: "v1_zone_quality_learning"
+  major_trend_timeframe: "H4"
+  major_zone_timeframe: "H4"
+  refined_zone_timeframe: "H1"
+  execution_timeframe: "M15"
+  use_m15_zone_as_execution_reference: true
+  use_sbr_rbs: true
+  require_body_break_for_sbr_rbs: true
+  require_fvg_for_sbr_rbs: true
+  break_lookback_candles: 80
+  fvg_lookback_candles: 20
+  min_break_body_ratio: 1.0
+  require_zone_for_entry: false
+  zone_tolerance_percent: 0.2
+  use_zone_quality_filter: true
+  min_zone_quality_for_entry: 65
+  min_m15_zone_quality_for_entry: 75
+  min_h1_rejection_zone_quality_for_entry: 70
+  use_m15_scalp_target: true
+  m15_zone_tp_pips: 50
+  m15_zone_sl_pips: 50
+  use_closed_rejection_candle: true
+  rejection_min_wick_body_ratio: 1.5
+  bullish_rejection_close_position: 0.55
+  bearish_rejection_close_position: 0.45
+  prefer_h1_rejection_zone: true
+  h1_rejection_requires_m15_not_opposite: true
+  h1_rejection_blocks_opposite_entry: true
+  h1_rejection_score: 35
+  h1_rejection_countertrend_relief: 30
+news:
+  enabled: false
+  source: "mt5"
+  block_high_impact: true
+  minutes_before: 30
+  minutes_after: 30
+learning:
+  enabled: true
+  db_path: "data/learning.sqlite"
+  min_samples_for_zone_bias: 20
+  max_zone_bias_points: 10
+  hard_block_bad_zones: true
+  hard_block_min_samples: 50
+  hard_block_max_win_rate: 30
+  hard_block_require_negative_avg_pips: true
+trade:
+  allow_buy: true
+  allow_sell: true
+  allow_layering: false
+  allow_move_to_be: true
+  magic_number: 20260604
+  deviation: 30
+  comment: "AI_DEMO_BOT"
+loop:
+  interval_seconds: 60
