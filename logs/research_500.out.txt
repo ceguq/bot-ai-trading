@@ -1,0 +1,7 @@
+Account Type: DEMO
+Research mode: order execution disabled, learning writes disabled.
+baseline: trades=22, wins=7, losses=15, win_rate=31.82%, pips=1300.0
+m15_quality_95: trades=12, wins=3, losses=9, win_rate=25.0%, pips=50.0
+no_m15_primary: trades=27, wins=9, losses=18, win_rate=33.33%, pips=0.0
+m15_tp30_sl50: trades=21, wins=7, losses=14, win_rate=33.33%, pips=1290.0
+min_score_90: trades=18, wins=6, losses=12, win_rate=33.33%, pips=1400.0

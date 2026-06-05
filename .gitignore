@@ -1,14 +1,9 @@
+@"
 .venv/
 __pycache__/
 *.pyc
-
-logs/
-*.log
-
 .env
-.env.local
-
 .DS_Store
 .vscode/
-
-data/
+data/*.db
+"@ | Set-Content .gitignore

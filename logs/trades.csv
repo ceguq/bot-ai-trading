@@ -1,0 +1,6 @@
+timestamp,symbol,mode,action,order_ticket,retcode,price,sl,tp,lot,comment,message
+2026-06-04T22:19:21,XAUUSD.vx,demo_trade,SKIP,,,,,,,AI_DEMO_BOT,Action is SKIP. No demo order sent.
+2026-06-04T22:19:58,XAUUSD.vx,demo_trade,SELL,,10030,4473.36,4476.36,4467.36,0.01,AI_DEMO_BOT,DEMO ORDER CHECK FAILED: Unsupported filling mode
+2026-06-04T22:21:03,XAUUSD.vx,demo_trade,SELL,0,10027,4471.78,4474.78,4465.78,0.01,AI_DEMO_BOT,DEMO ORDER SEND FAILED: AutoTrading disabled by client
+2026-06-05T00:58:55,XAUUSD.vx,demo_trade,SELL,0,10027,4478.11,4481.11,4472.11,0.01,AI_DEMO_BOT,DEMO ORDER SEND FAILED: AutoTrading disabled by client
+2026-06-05T01:01:02,XAUUSD.vx,demo_trade,SELL,20128317479,10009,4478.24,4481.24,4472.24,0.01,AI_DEMO_BOT,Request executed

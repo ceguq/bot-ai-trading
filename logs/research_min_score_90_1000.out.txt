@@ -1,0 +1,3 @@
+Account Type: DEMO
+Research mode: order execution disabled, learning writes disabled.
+min_score_90: trades=24, wins=7, losses=17, win_rate=29.17%, pips=1500.0

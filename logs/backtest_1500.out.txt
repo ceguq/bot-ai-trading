@@ -1,0 +1,12 @@
+Account Type: DEMO
+Backtest mode: order execution disabled.
+Backtest completed.
+Symbol: XAUUSD.vx
+Bars: 1500
+Trades: 29
+Wins: 8
+Losses: 21
+Skipped signals: 1374
+Win rate: 27.59%
+Total pips: 1350.0
+Log: E:\project\vscode\BOT-AI-TRADING\bot-ai-trading-v1\ai-trading-bot\logs\backtest.csv

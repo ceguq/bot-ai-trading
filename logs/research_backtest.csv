@@ -1,0 +1,7 @@
+timestamp,variant,symbol,bars,trades,wins,losses,skipped,win_rate,total_pips
+2026-06-05T13:25:01,baseline,XAUUSD.vx,500,22,7,15,392,31.82,1300.0
+2026-06-05T13:26:21,m15_quality_95,XAUUSD.vx,500,12,3,9,412,25.0,50.0
+2026-06-05T13:27:35,no_m15_primary,XAUUSD.vx,500,27,9,18,372,33.33,0.0
+2026-06-05T13:28:52,m15_tp30_sl50,XAUUSD.vx,500,21,7,14,394,33.33,1290.0
+2026-06-05T13:30:10,min_score_90,XAUUSD.vx,500,18,6,12,400,33.33,1400.0
+2026-06-05T13:37:46,min_score_90,XAUUSD.vx,1000,24,7,17,884,29.17,1500.0
